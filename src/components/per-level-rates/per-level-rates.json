@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_per_level_rates_per_level_rates",
+  "info": {
+    "displayName": "perLevelRates"
+  },
+  "options": {},
+  "attributes": {
+    "perLevelRates": {
+      "type": "integer"
+    },
+    "commissionRate": {
+      "type": "decimal"
+    }
+  }
+}

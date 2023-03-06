@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_states_provinces_states_provinces",
+  "info": {
+    "displayName": "States/Provinces"
+  },
+  "options": {},
+  "attributes": {
+    "states": {
+      "type": "enumeration",
+      "enum": [
+        "AC",
+        "AL",
+        "AP",
+        "AM",
+        "BA",
+        "CE",
+        "DF",
+        "ES",
+        "GO",
+        "MA",
+        "MT",
+        "MS",
+        "MG",
+        "PA",
+        "PB",
+        "PR",
+        "PE",
+        "PI",
+        "RJ",
+        "RN",
+        "RS",
+        "RO",
+        "RR",
+        "SC",
+        "SP",
+        "SE",
+        "TO"
+      ]
+    }
+  }
+}

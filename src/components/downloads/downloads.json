@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_downloads_downloads",
+  "info": {
+    "displayName": "downloads",
+    "icon": "cloud-download-alt"
+  },
+  "options": {},
+  "attributes": {
+    "file_id": {
+      "type": "string"
+    }
+  }
+}

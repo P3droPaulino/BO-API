@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_settings_affiliate_emails",
+  "info": {
+    "displayName": "email"
+  },
+  "options": {},
+  "attributes": {
+    "fromName": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_settings_aff_email_settings_aff_emails",
+  "info": {
+    "displayName": "Settings-aff-email",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "id_logo": {
+      "type": "integer"
+    },
+    "fromName": {
+      "type": "string"
+    },
+    "fromEmail": {
+      "type": "string"
+    },
+    "notifications": {
+      "displayName": "aff-emailNotifications",
+      "type": "component",
+      "repeatable": false,
+      "component": "aff-email-notifications.aff-email-notifications"
+    }
+  }
+}

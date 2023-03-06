@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rateio_admins",
+  "info": {
+    "singularName": "rateio-admin",
+    "pluralName": "rateio-admins",
+    "displayName": "Rateio Admin"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rateio_admin": {
+      "displayName": "rateio_admin",
+      "type": "component",
+      "repeatable": true,
+      "component": "rateio-admin.rateio-admin"
+    }
+  }
+}

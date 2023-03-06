@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_support_material_support_materials",
+  "info": {
+    "displayName": "Support material"
+  },
+  "options": {},
+  "attributes": {
+    "creativeName": {
+      "type": "string"
+    },
+    "media": {
+      "type": "enumeration",
+      "enum": [
+        "image",
+        "video",
+        "file"
+      ]
+    },
+    "media_title": {
+      "type": "string"
+    },
+    "media_id": {
+      "type": "string"
+    },
+    "media_visible": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "openapi": "3.0.0", // Do not change this version
+  "info": {
+    "version": "1.0.0", // Change this line to create a new version
+     "title": "DOCUMENTATIONed",
+    "description": "",
+    "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
+    "contact": {
+      "name": "TEAMar",
+      "email": "contact-email@something.io",
+      "url": "mywebsite.io"
+    },
+    "license": {
+      "name": "Apache 3.0.1",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "x-strapi-config": {
+    "path": "/documentation", // Change this line to change to url of the doc
+    "showGeneratedFiles": true
+  },
+  "externalDocs": {
+    "description": "Saiba mais",
+    "url": "https://strapi.io/documentation/3.0.0-alpha.x/"
+  }
+},
+
+{
+  "client_id": "41b44ab9a56440.teste.celcoinapi.v5",
+  "grant_type": "client_credentials",
+  "client_secret": "e9d15cde33024c1494de7480e69b7a18c09d7cd25a8446839b3be82a56a044a3"
+}

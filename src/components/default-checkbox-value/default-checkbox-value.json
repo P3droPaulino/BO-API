@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_default_checkbox_value_default_checkbox_values",
+  "info": {
+    "displayName": "default_checkbox_value",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "value": {
+      "type": "decimal"
+    }
+  }
+}

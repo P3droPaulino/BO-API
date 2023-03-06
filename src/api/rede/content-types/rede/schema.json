@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "redes",
+  "info": {
+    "singularName": "rede",
+    "pluralName": "redes",
+    "displayName": "Rede",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "integer"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "parent_id": {
+      "type": "integer"
+    },
+    "amount_receivable": {
+      "type": "decimal"
+    },
+    "plan_id": {
+      "type": "integer"
+    },
+    "position": {
+      "type": "integer"
+    },
+    "type_plan": {
+      "type": "enumeration",
+      "enum": [
+        "indicacao_direta",
+        "fila_unica",
+        "graduacao",
+        "miprev",
+        "giro_diario"
+      ]
+    }
+  }
+}

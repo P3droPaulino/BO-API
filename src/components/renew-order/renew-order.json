@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_renew_order_renew_orders",
+  "info": {
+    "displayName": "renew-order",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "date_renew": {
+      "type": "datetime"
+    },
+    "date_payment": {
+      "type": "datetime"
+    },
+    "status_renew": {
+      "type": "boolean"
+    }
+  }
+}

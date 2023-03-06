@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_settings_affiliate_generals",
+  "info": {
+    "displayName": "general"
+  },
+  "options": {},
+  "attributes": {
+    "referralVariable": {
+      "type": "string"
+    }
+  }
+}

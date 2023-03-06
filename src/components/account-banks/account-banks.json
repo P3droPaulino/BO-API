@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_account_banks_account_banks",
+  "info": {
+    "displayName": "Account Banks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bank_code": {
+      "type": "string"
+    },
+    "bank_agency": {
+      "type": "string"
+    },
+    "bank_account": {
+      "type": "string"
+    },
+    "bank_account_type": {
+      "type": "string"
+    },
+    "bank_account_variation": {
+      "type": "string"
+    },
+    "bank_pix_key_type": {
+      "type": "string"
+    },
+    "bank_pix_key_value": {
+      "type": "string"
+    }
+  }
+}

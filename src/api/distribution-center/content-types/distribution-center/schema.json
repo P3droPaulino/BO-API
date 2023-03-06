@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "distribution_centers",
+  "info": {
+    "singularName": "distribution-center",
+    "pluralName": "distribution-centers",
+    "displayName": "Distribution center"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "provider": {
+      "displayName": "Provider",
+      "type": "component",
+      "repeatable": false,
+      "component": "provider-distribution-center.provider"
+    }
+  }
+}

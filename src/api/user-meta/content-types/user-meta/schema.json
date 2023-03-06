@@ -1,0 +1,148 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_metas",
+  "info": {
+    "singularName": "user-meta",
+    "pluralName": "user-metas",
+    "displayName": "User meta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "financialPassword": {
+      "type": "password",
+      "minLength": 6,
+      "private": true
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "phoneNumber_2": {
+      "type": "string"
+    },
+    "birthDate": {
+      "type": "date"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "document_id_front": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "document_id_verse": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "document_id_selfie": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "document_issue": {
+      "type": "string"
+    },
+    "document_issue_date": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "marital_status": {
+      "type": "enumeration",
+      "enum": [
+        "solteiro",
+        "casado",
+        "divorciado",
+        "separado",
+        "viuvo"
+      ]
+    },
+    "motherName": {
+      "type": "string"
+    },
+    "documentNumber": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "clientCode": {
+      "type": "string"
+    },
+    "usernameParent": {
+      "type": "string"
+    },
+    "accountOnboardingType": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "addressComplement": {
+      "type": "string"
+    },
+    "neighborhood": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "user_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "user_meta"
+    },
+    "document_issue_uf": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "celcoin",
+  "version": "0.0.0",
+  "description": "Integração Celcoin.com.br",
+  "strapi": {
+    "name": "celcoin",
+    "description": "Integração Celcoin, By: DanSP",
+    "kind": "plugin",
+    "displayName": "Celcoin"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "DanSP"
+  },
+  "maintainers": [
+    {
+      "name": "DanSP"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

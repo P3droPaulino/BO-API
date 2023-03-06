@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_unilevel_unilevels",
+  "info": {
+    "displayName": "unilevel"
+  },
+  "options": {},
+  "attributes": {
+    "level_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "level_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "level_3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "level_4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "level_5": {
+      "type": "component",
+      "repeatable": true,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "level_6": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "level_7": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    }
+  }
+}

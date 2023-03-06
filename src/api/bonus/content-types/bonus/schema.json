@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bonuses",
+  "info": {
+    "singularName": "bonus",
+    "pluralName": "bonuses",
+    "displayName": "bonus"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "graduacao": {
+      "displayName": "graduacao",
+      "type": "component",
+      "repeatable": true,
+      "component": "graduacao.graduacao"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_settings_aff_general_settings_affiliates",
+  "info": {
+    "displayName": "settings-affiliate"
+  },
+  "options": {},
+  "attributes": {
+    "referralVariable": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_user_metas_user_metas",
+  "info": {
+    "displayName": "user_metas"
+  },
+  "options": {},
+  "attributes": {
+    "senha_financeira": {
+      "type": "password",
+      "minLength": 8,
+      "private": true
+    },
+    "phone_1": {
+      "type": "string"
+    },
+    "phone_2": {
+      "type": "string"
+    },
+    "birth": {
+      "type": "date"
+    },
+    "document_rg": {
+      "type": "string"
+    },
+    "document_cpf": {
+      "type": "string"
+    },
+    "issued_by": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "M",
+        "F",
+        "B"
+      ]
+    },
+    "marital_status": {
+      "type": "enumeration",
+      "enum": [
+        "single",
+        "married",
+        "divorced",
+        "widower",
+        "separated"
+      ]
+    },
+    "mother_name": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

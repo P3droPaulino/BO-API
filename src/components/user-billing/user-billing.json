@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_user_billing_user_billings",
+  "info": {
+    "displayName": "user_billing"
+  },
+  "options": {},
+  "attributes": {
+    "zip_code": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 8
+    }
+  }
+}

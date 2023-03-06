@@ -1,0 +1,40 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Mi2 - APP - Documentação",
+      "description": "",
+      "termsOfService": "#",
+      "contact": {
+        "name": "DanSP.DEV",
+        "email": "daniel.rootdir@gmail.com",
+        "url": "https://t.me/dansp89"
+      },
+      "license": {
+        "name": "Apache 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+      },
+      "x-generation-date": "2023-02-19T18:47:23.103Z"
+    },
+    "x-strapi-config": {
+      "path": "/documentation",
+      "showGeneratedFiles": true,
+      "generateDefaultResponse": true,
+      "plugins": [
+        "email",
+        "upload",
+        "users-permissions"
+      ]
+    },
+    "servers": [
+      {
+        "url": "http://localhost:1337/api",
+        "description": "Servidor de produção"
+      }
+    ],
+    "externalDocs": {
+      "description": "Aplicação em produção",
+      "url": "https://app.mercadointeligente.online/"
+    }
+  }
+  

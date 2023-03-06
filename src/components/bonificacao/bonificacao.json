@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_bonificacao_bonificacaos",
+  "info": {
+    "displayName": "bonificacao",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "indicacao_direta": {
+      "displayName": "default_checkbox_value",
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "fila_unica": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "graduacao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "miprev": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    },
+    "giro_diario": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default-checkbox-value.default-checkbox-value"
+    }
+  }
+}

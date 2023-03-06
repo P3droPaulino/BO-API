@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_upsell_ids_upsell_ids",
+  "info": {
+    "displayName": "upsell_ids",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "id_upsell": {
+      "type": "string"
+    }
+  }
+}

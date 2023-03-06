@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_aff_email_notifications_aff_email_notifications",
+  "info": {
+    "displayName": "aff-emailNotifications"
+  },
+  "options": {},
+  "attributes": {
+    "notifyManagerNewAff": {
+      "type": "boolean"
+    },
+    "notifyManagerNewReferr": {
+      "type": "boolean"
+    },
+    "notifyManagerNewReferrerEarn": {
+      "type": "boolean"
+    },
+    "notifyManagerNewAffAccepted": {
+      "type": "boolean"
+    },
+    "notifyManagerNewAffPending": {
+      "type": "boolean"
+    },
+    "notifyManagerNewAffReject": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_graduacao_graduacaos",
+  "info": {
+    "displayName": "graduacao"
+  },
+  "options": {},
+  "attributes": {
+    "nomeGraduacao": {
+      "type": "string"
+    },
+    "imagemPin": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "pontosMeta": {
+      "type": "integer"
+    },
+    "tetoMensal": {
+      "type": "decimal"
+    },
+    "vml": {
+      "type": "integer"
+    },
+    "PLpercent": {
+      "type": "decimal"
+    },
+    "ordem": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "min": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accounts_banks",
+  "info": {
+    "singularName": "accounts-bank",
+    "pluralName": "accounts-banks",
+    "displayName": "accountsBank",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "accounts_bank"
+    },
+    "accounts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "account-banks.account-banks"
+    }
+  }
+}

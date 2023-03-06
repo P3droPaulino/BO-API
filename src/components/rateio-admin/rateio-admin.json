@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_rateio_admin_rateio_admins",
+  "info": {
+    "displayName": "rateio_admin"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "valor": {
+      "type": "decimal"
+    }
+  }
+}
